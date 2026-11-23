@@ -10,6 +10,10 @@
 pipeline {
   agent any
 
+  tools {
+    nodejs 'sahil-demo'
+  }
+
   options {
     timestamps()
     disableConcurrentBuilds()
