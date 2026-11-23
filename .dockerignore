@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.ai-team
+.claude
+CLAUDE.md
+AGENTS.md
+test
+.eslintrc.json
+.env
+.env.*
