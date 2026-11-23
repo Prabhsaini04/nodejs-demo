@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "script"
+  },
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["src/public/**/*.js"],
+      "env": { "browser": true, "node": false }
+    }
+  ]
+}
